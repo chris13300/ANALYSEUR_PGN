@@ -27,11 +27,15 @@ There are different ways to use this tool :<br>
 ![pgn_depth](https://github.com/chris13300/ANALYSEUR_PGN/blob/main/ANALYSEUR%20PGN/bin/x64/Debug/pgn_depth.jpg)<br>
 ![epd_depth](https://github.com/chris13300/ANALYSEUR_PGN/blob/main/ANALYSEUR%20PGN/bin/x64/Debug/epd_depth.jpg)<p>
 
+During the analyses, ANALYSEUR PGN captures its window each [15 minutes](https://github.com/chris13300/ANALYSEUR_PGN/blob/main/ANALYSEUR%20PGN/frmPrincipale.vb#L1029).<br>
+It allows the user to know remotely (local network) where the program is.<p>
+  
 At the end of the analyses, we get few files :<br>
 - the "your_pgn.log" file contains the start time, the end time, the elapsed seconds and the number of positions analyzed<br>
 - the "your_pgn.rep" file contains the best moves of each engines for each position analyzed. This file follows the same format as the REP file produced by the Arena's built-in auto-analysis function<br>
 - the "pgn/epd - core/threads - delay/depth - hash.log" file contains the elapsed seconds until the last move's change, the percentage of use of the hash, the number of move's changes<br>
-- the "engine_name (threads).log" file contains the speed, the depth and the tb hits<p>
+- the "engine_name (threads).log" file contains the speed, the depth and the tb hits<br>
+- the "changes.log" file contains the positions where there are more than [17 move's changes](https://github.com/chris13300/ANALYSEUR_PGN/blob/main/ANALYSEUR%20PGN/frmPrincipale.vb#L793)<p>
 
 # tips
 Use an EPD file when positions contain little material such as end game positions or for legal positions but you don't know what sequence of moves to get there. With the EPD file, the selected depth won't be displayed.<p>
@@ -45,9 +49,9 @@ By default, "Duration" accepts an analysis delay in seconds but it can also acce
 For example, enter "30" to search for the best move for 30 seconds or "D30" to search for the best move at depth 30.<br>
 You can only use 2 engines with an analysis delay. If you set a fixed depth, only the engine 1 (blue) will be used.<p>
 
-When the "Fixed" option isn't checked, if the 2 engines disagree on the best move, ANALYSEUR PGN can add 60 sec to the analysis delay in order to allow more time for the engines to agree.<br>
+When the "Fixed" option isn't checked, if the 2 engines disagree on the best move, ANALYSEUR PGN can add [60 sec](https://github.com/chris13300/ANALYSEUR_PGN/blob/main/ANALYSEUR%20PGN/frmPrincipale.vb#L9) to the [analysis delay](https://github.com/chris13300/ANALYSEUR_PGN/blob/main/ANALYSEUR%20PGN/frmPrincipale.vb#L1406) in order to allow more time for the engines to agree.<br>
 When the "Fixed" option is checked, even if the 2 engines disagree on the best move, ANALYSEUR PGN will respect the analysis delay.<p>
 
 "Delayed start" allows you to schedule the time when the analyses will start.<p>
 
-"Shutdown" will automatically shutdown your computer after the last analysis.<p>
+"Shutdown" will automatically shutdown your computer after the [last analysis](https://github.com/chris13300/ANALYSEUR_PGN/blob/main/ANALYSEUR%20PGN/frmPrincipale.vb#L816).<p>

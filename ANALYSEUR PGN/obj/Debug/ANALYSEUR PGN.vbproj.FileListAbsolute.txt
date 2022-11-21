@@ -1,0 +1,14 @@
+C:\Users\chris\Documents\Visual Studio 2013\Projects\ANALYSEUR EPD\ANALYSEUR EPD\bin\Debug\ANALYSEUR EPD.exe.config
+C:\Users\chris\Documents\Visual Studio 2013\Projects\ANALYSEUR EPD\ANALYSEUR EPD\obj\Debug\ANALYSEUR EPD.exe
+C:\Users\chris\Documents\Visual Studio 2013\Projects\ANALYSEUR EPD\ANALYSEUR EPD\obj\Debug\ANALYSEUR EPD.xml
+C:\Users\chris\Documents\Visual Studio 2013\Projects\ANALYSEUR EPD\ANALYSEUR EPD\obj\Debug\ANALYSEUR EPD.pdb
+C:\Users\chris\Documents\Visual Studio 2013\Projects\ANALYSEUR PGN\ANALYSEUR PGN\bin\Debug\ANALYSEUR PGN.exe.config
+C:\Users\chris\Documents\Visual Studio 2013\Projects\ANALYSEUR PGN\ANALYSEUR PGN\bin\Debug\ANALYSEUR PGN.exe
+C:\Users\chris\Documents\Visual Studio 2013\Projects\ANALYSEUR PGN\ANALYSEUR PGN\bin\Debug\ANALYSEUR PGN.pdb
+C:\Users\chris\Documents\Visual Studio 2013\Projects\ANALYSEUR PGN\ANALYSEUR PGN\bin\Debug\ANALYSEUR PGN.xml
+C:\Users\chris\Documents\Visual Studio 2013\Projects\ANALYSEUR PGN\ANALYSEUR PGN\obj\Debug\ANALYSEUR_PGN.frmPrincipale.resources
+C:\Users\chris\Documents\Visual Studio 2013\Projects\ANALYSEUR PGN\ANALYSEUR PGN\obj\Debug\ANALYSEUR_PGN.Resources.resources
+C:\Users\chris\Documents\Visual Studio 2013\Projects\ANALYSEUR PGN\ANALYSEUR PGN\obj\Debug\ANALYSEUR PGN.vbproj.GenerateResource.Cache
+C:\Users\chris\Documents\Visual Studio 2013\Projects\ANALYSEUR PGN\ANALYSEUR PGN\obj\Debug\ANALYSEUR PGN.exe
+C:\Users\chris\Documents\Visual Studio 2013\Projects\ANALYSEUR PGN\ANALYSEUR PGN\obj\Debug\ANALYSEUR PGN.xml
+C:\Users\chris\Documents\Visual Studio 2013\Projects\ANALYSEUR PGN\ANALYSEUR PGN\obj\Debug\ANALYSEUR PGN.pdb

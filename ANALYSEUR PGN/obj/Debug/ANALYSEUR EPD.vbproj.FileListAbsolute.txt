@@ -1,0 +1,10 @@
+C:\Users\chris\Documents\Visual Studio 2013\Projects\ANALYSEUR EPD\ANALYSEUR EPD\bin\Debug\ANALYSEUR EPD.exe.config
+C:\Users\chris\Documents\Visual Studio 2013\Projects\ANALYSEUR EPD\ANALYSEUR EPD\bin\Debug\ANALYSEUR EPD.exe
+C:\Users\chris\Documents\Visual Studio 2013\Projects\ANALYSEUR EPD\ANALYSEUR EPD\bin\Debug\ANALYSEUR EPD.pdb
+C:\Users\chris\Documents\Visual Studio 2013\Projects\ANALYSEUR EPD\ANALYSEUR EPD\bin\Debug\ANALYSEUR EPD.xml
+C:\Users\chris\Documents\Visual Studio 2013\Projects\ANALYSEUR EPD\ANALYSEUR EPD\obj\Debug\ANALYSEUR_EPD.Resources.resources
+C:\Users\chris\Documents\Visual Studio 2013\Projects\ANALYSEUR EPD\ANALYSEUR EPD\obj\Debug\ANALYSEUR EPD.vbproj.GenerateResource.Cache
+C:\Users\chris\Documents\Visual Studio 2013\Projects\ANALYSEUR EPD\ANALYSEUR EPD\obj\Debug\ANALYSEUR EPD.exe
+C:\Users\chris\Documents\Visual Studio 2013\Projects\ANALYSEUR EPD\ANALYSEUR EPD\obj\Debug\ANALYSEUR EPD.xml
+C:\Users\chris\Documents\Visual Studio 2013\Projects\ANALYSEUR EPD\ANALYSEUR EPD\obj\Debug\ANALYSEUR EPD.pdb
+C:\Users\chris\Documents\Visual Studio 2013\Projects\ANALYSEUR EPD\ANALYSEUR EPD\obj\Debug\ANALYSEUR_EPD.frmPrincipale.resources

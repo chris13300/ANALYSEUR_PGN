@@ -28,7 +28,7 @@ There are different ways to use this tool :<br>
 ![epd_depth](https://github.com/chris13300/ANALYSEUR_PGN/blob/main/ANALYSEUR%20PGN/bin/x64/Debug/epd_depth.jpg)<p>
 
 During the analyses, ANALYSEUR PGN captures its window each [15 minutes](https://github.com/chris13300/ANALYSEUR_PGN/blob/main/ANALYSEUR%20PGN/frmPrincipale.vb#L1029).<br>
-It allows the user to know remotely (local network) where the program is.<p>
+This allows the user to remotely monitor the progress of the analyses.<p>
   
 At the end of the analyses, we get few files :<br>
 - the "your_pgn.log" file contains the start time, the end time, the elapsed seconds and the number of positions analyzed<br>

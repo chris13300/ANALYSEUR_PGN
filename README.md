@@ -1,4 +1,4 @@
-# ANALYSEUR_PGN
+# ANALYSEUR PGN
 Tool to find the best move by consensus of 2 engines
 
 Prerequisites :<br>
@@ -18,6 +18,22 @@ rename ENGINE2.ini to NAME_OF_YOUR_ENGINE2.ini<br>
 set its UCI options<p>
 
 # How it works ?
+There are different ways to use this tool :<br>
+- in the case of a PGN/EPD file and an analysis delay, both engines will analyse the last position from each game and store their best moves in a REP file<br>
+![pgn_delay]()
+![epd_delay]()
+- in the case of a PGN/EPD file and a fixed depth, only one engine (blue) will analyse the last position from each game and store their best moves in a REP file<br>
+![pgn_depth]()
+![epd_depth]()
+
+At the end of the analyses, we get few files :<br>
+- the "your_pgn.log" file contains the start time, the end time, the elapsed seconds and the number of positions analyzed<br>
+- the "your_pgn.rep" file contains the best moves of each engines for each position analyzed. This file follows the same format as the REP file produced by the Arena's built-in auto-analysis function<br>
+- the "pgn/epd - core/threads - delay/depth - hash.log" file contains the elapsed seconds until the last move's change, the percentage of use of the hash, the number of move's changes<br>
+- the "engine_name (threads).log" file contains the speed, the depth and the tb hits<br>
+
+# tips
+Use an EPD file when positions contain little material such as end  game or for legal positions but you don't know what sequence of moves to get there.<p>
 
 If you double-click on the main window, you can expand its width and see a chessboard on the right.<br>
 Double-click the main window again to reduce its width and hide the chessboard.<p>

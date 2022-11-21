@@ -20,17 +20,17 @@ set its UCI options<p>
 # How it works ?
 There are different ways to use this tool :<br>
 - in the case of a PGN/EPD file and an analysis delay, both engines will analyse the last position from each game and store their best moves in a REP file<br>
-![pgn_delay]()
-![epd_delay]()
+![pgn_delay](https://github.com/chris13300/ANALYSEUR_PGN/tree/main/ANALYSEUR%20PGN/bin/x64/Debug/pgn_delay.jpg)
+![epd_delay](https://github.com/chris13300/ANALYSEUR_PGN/tree/main/ANALYSEUR%20PGN/bin/x64/Debug/epd_delay.jpg)
 - in the case of a PGN/EPD file and a fixed depth, only one engine (blue) will analyse the last position from each game and store their best moves in a REP file<br>
-![pgn_depth]()
-![epd_depth]()
+![pgn_depth](https://github.com/chris13300/ANALYSEUR_PGN/tree/main/ANALYSEUR%20PGN/bin/x64/Debug/pgn_depth.jpg)
+![epd_depth](https://github.com/chris13300/ANALYSEUR_PGN/tree/main/ANALYSEUR%20PGN/bin/x64/Debug/epd_depth.jpg)
 
 At the end of the analyses, we get few files :<br>
 - the "your_pgn.log" file contains the start time, the end time, the elapsed seconds and the number of positions analyzed<br>
 - the "your_pgn.rep" file contains the best moves of each engines for each position analyzed. This file follows the same format as the REP file produced by the Arena's built-in auto-analysis function<br>
 - the "pgn/epd - core/threads - delay/depth - hash.log" file contains the elapsed seconds until the last move's change, the percentage of use of the hash, the number of move's changes<br>
-- the "engine_name (threads).log" file contains the speed, the depth and the tb hits<br>
+- the "engine_name (threads).log" file contains the speed, the depth and the tb hits<p>
 
 # tips
 Use an EPD file when positions contain little material such as end  game or for legal positions but you don't know what sequence of moves to get there.<p>

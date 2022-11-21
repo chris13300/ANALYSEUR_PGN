@@ -31,11 +31,11 @@ During the analyses, ANALYSEUR PGN captures its window each [15 minutes](https:/
 This allows the user to remotely monitor the progress of the analyses.<p>
   
 At the end of the analyses, we get few files :<br>
-- the "your_pgn.log" file contains the start time, the end time, the elapsed seconds and the number of positions analyzed<br>
-- the "your_pgn.rep" file contains the best moves of each engines for each position analyzed. This file follows the same format as the REP file produced by the Arena's built-in auto-analysis function<br>
+- the "your_pgn.log" file contains the start time, the end time, the elapsed seconds and the number of analyzed positions<br>
+- the "your_pgn.rep" file contains the best moves of each engine for each analyzed position. This file follows the same format as the REP file produced by the Arena's built-in auto-analysis function<br>
 - the "pgn/epd - core/threads - delay/depth - hash.log" file contains the elapsed seconds until the last move's change, the percentage of use of the hash, the number of move's changes<br>
-- the "engine_name (threads).log" file contains the speed, the depth and the tb hits<br>
-- the "changes.log" file contains the positions where there are more than [17 move's changes](https://github.com/chris13300/ANALYSEUR_PGN/blob/main/ANALYSEUR%20PGN/frmPrincipale.vb#L793)<p>
+- the "engine_name (threads).log" file contains the speed, the depth and the tablebases hits<br>
+- the "changes.log" file contains the analyzed positions where there were more than [17 move's changes](https://github.com/chris13300/ANALYSEUR_PGN/blob/main/ANALYSEUR%20PGN/frmPrincipale.vb#L793)<p>
 
 # tips
 Use an EPD file when positions contain little material such as end game positions or for legal positions but you don't know what sequence of moves to get there. With the EPD file, the selected depth won't be displayed.<p>

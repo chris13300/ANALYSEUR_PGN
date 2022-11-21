@@ -20,12 +20,12 @@ set its UCI options<p>
 # How it works ?
 There are different ways to use this tool :<br>
 - with an analysis delay, both engines will analyse the last position from each game and store their best moves in a REP file<br>
-![pgn_delay](https://github.com/chris13300/ANALYSEUR_PGN/tree/main/ANALYSEUR%20PGN/bin/x64/Debug/pgn_delay.jpg)<br>
-![epd_delay](https://github.com/chris13300/ANALYSEUR_PGN/tree/main/ANALYSEUR%20PGN/bin/x64/Debug/epd_delay.jpg)<p>
+![pgn delay](https://github.com/chris13300/ANALYSEUR_PGN/blob/main/ANALYSEUR%20PGN/bin/x64/Debug/pgn_delay.jpg)<br>
+![epd delay](https://github.com/chris13300/ANALYSEUR_PGN/tree/main/ANALYSEUR%20PGN/bin/x64/Debug/epd_delay.jpg)<p>
   
 - with a fixed depth, only one engine (blue) will analyse the last position from each game and store their best moves in a REP file<br>
-![pgn_depth](https://github.com/chris13300/ANALYSEUR_PGN/tree/main/ANALYSEUR%20PGN/bin/x64/Debug/pgn_depth.jpg)<br>
-![epd_depth](https://github.com/chris13300/ANALYSEUR_PGN/tree/main/ANALYSEUR%20PGN/bin/x64/Debug/epd_depth.jpg)<p>
+![pgn depth](https://github.com/chris13300/ANALYSEUR_PGN/tree/main/ANALYSEUR%20PGN/bin/x64/Debug/pgn_depth.jpg)<br>
+![epd depth](https://github.com/chris13300/ANALYSEUR_PGN/tree/main/ANALYSEUR%20PGN/bin/x64/Debug/epd_depth.jpg)<p>
 
 At the end of the analyses, we get few files :<br>
 - the "your_pgn.log" file contains the start time, the end time, the elapsed seconds and the number of positions analyzed<br>

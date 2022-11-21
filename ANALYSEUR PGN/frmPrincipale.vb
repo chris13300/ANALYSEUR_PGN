@@ -202,11 +202,6 @@
     Private Sub cmdMoteur1_Click(sender As Object, e As EventArgs) Handles cmdMoteur1.Click
         dlgImport.FileName = ""
         dlgImport.InitialDirectory = Environment.CurrentDirectory
-        If My.Computer.Name = "WORKSTATION" Or My.Computer.Name = "BUREAU" Or My.Computer.Name = "TOUR-COURTOISIE" Then
-            dlgImport.InitialDirectory = "E:\JEUX\ARENA CHESS 3.5.1\Engines"
-        ElseIf My.Computer.Name = "HTPC" Or My.Computer.Name = "PLEXI" Or My.Computer.Name = "BOIS" Then
-            dlgImport.InitialDirectory = "D:\JEUX\ARENA CHESS 3.5.1\Engines"
-        End If
         dlgImport.Filter = "EXE engine (*.exe)|*.exe"
         dlgImport.ShowDialog()
         If dlgImport.FileName = "" Then
@@ -219,11 +214,6 @@
     Private Sub cmdMoteur2_Click(sender As Object, e As EventArgs) Handles cmdMoteur2.Click
         dlgImport.FileName = ""
         dlgImport.InitialDirectory = Environment.CurrentDirectory
-        If My.Computer.Name = "WORKSTATION" Or My.Computer.Name = "BUREAU" Or My.Computer.Name = "TOUR-COURTOISIE" Then
-            dlgImport.InitialDirectory = "E:\JEUX\ARENA CHESS 3.5.1\Engines"
-        ElseIf My.Computer.Name = "HTPC" Or My.Computer.Name = "PLEXI" Or My.Computer.Name = "BOIS" Then
-            dlgImport.InitialDirectory = "D:\JEUX\ARENA CHESS 3.5.1\Engines"
-        End If
         dlgImport.Filter = "EXE engine (*.exe)|*.exe"
         dlgImport.ShowDialog()
         If dlgImport.FileName = "" Then
@@ -239,9 +229,6 @@
         If cmdOptions1.Tag = Nothing Then
             dlgImport.FileName = ""
             dlgImport.InitialDirectory = Environment.CurrentDirectory
-            If My.Computer.FileSystem.DirectoryExists("D:\A CONSERVER\COMPIL LOGICIELS 2008\NOTEPAD++") Then
-                dlgImport.InitialDirectory = "D:\A CONSERVER\COMPIL LOGICIELS 2008\NOTEPAD++"
-            End If
             dlgImport.Filter = "Text editor (*.exe)|*.exe"
             dlgImport.ShowDialog()
             If dlgImport.FileName = "" Then
@@ -262,9 +249,6 @@
         If cmdOptions1.Tag = Nothing Then
             dlgImport.FileName = ""
             dlgImport.InitialDirectory = Environment.CurrentDirectory
-            If My.Computer.FileSystem.DirectoryExists("D:\A CONSERVER\COMPIL LOGICIELS 2008\NOTEPAD++") Then
-                dlgImport.InitialDirectory = "D:\A CONSERVER\COMPIL LOGICIELS 2008\NOTEPAD++"
-            End If
             dlgImport.Filter = "Text editor (*.exe)|*.exe"
             dlgImport.ShowDialog()
             If dlgImport.FileName = "" Then
@@ -297,7 +281,7 @@
     End Sub
 
     Private Sub txtLimite_KeyUp(sender As Object, e As KeyEventArgs) Handles txtLimite.KeyUp
-        'détecter s'il y a un "D" ou un "P" dans txtLimite
+        'détecter s'il y a un "D" dans txtLimite
         If UCase(gauche(txtLimite.Text, 1)) = "D" Then
             profondeurLimitee = True
             cbFixee.Enabled = False
@@ -348,12 +332,7 @@
 
         dlgImport.FileName = ""
         dlgImport.InitialDirectory = Environment.CurrentDirectory
-        If My.Computer.Name = "WORKSTATION" Or My.Computer.Name = "BUREAU" Or My.Computer.Name = "TOUR-COURTOISIE" Then
-            dlgImport.InitialDirectory = "E:\JEUX\ARENA CHESS 3.5.1\Databases\PGN Extract GUI"
-        ElseIf My.Computer.Name = "HTPC" Or My.Computer.Name = "PLEXI" Or My.Computer.Name = "BOIS" Then
-            dlgImport.InitialDirectory = "D:\JEUX\ARENA CHESS 3.5.1\Databases\PGN Extract GUI"
-        End If
-
+        
         If lblChemin2.Text <> "" Or profondeurLimitee Then
             dlgImport.Filter = "PGN file (*.pgn)|*.pgn|EPD file (*.epd)|*.epd"
         Else
@@ -1669,11 +1648,7 @@ reprise_2:
     End Function
 
     Private Sub capturer()
-        If My.Computer.Name = "WORKSTATION" Or My.Computer.Name = "BUREAU" Or My.Computer.Name = "HTPC" Or My.Computer.Name = "TOUR-COURTOISIE" Or My.Computer.Name = "PLEXI" Or My.Computer.Name = "BOIS" Then
-            captureEcran(Me, "c:\downloads\analyseur.png")
-        Else
-            captureEcran(Me, "analyseur.png")
-        End If
+        captureEcran(Me, "analyseur.png")
     End Sub
 
     Private Sub chargerEPD(fichier As String)
@@ -1700,27 +1675,6 @@ reprise_2:
         If MsgBox("Deactivate the 2nd engine ?", MsgBoxStyle.YesNo) = MsgBoxResult.Yes Then
             lblChemin2.Text = ""
             puissance = cpu()
-        End If
-    End Sub
-
-    Private Sub cbLangue_SelectedIndexChanged(sender As Object, e As EventArgs)
-        'on traduit que les pgn pas les epd
-        If mode = ".pgn" And lblPartie.Text <> "" And Not IsNothing(tabPGN) Then
-            lblPartie.Text = coupsEN(formaterCoups("", tabPGN(pos)))
-        End If
-
-        If profondeurLimitee Then
-            If tempsCumule = 0 Then
-                lblEstimation.Text = "Est. :"
-            Else
-                lblEstimation.Text = estimation(tempsCumule / (pos - Val(txtReprise.Tag)), Val(txtReprise.Text), tempsCumule / (pos - Val(txtReprise.Tag)), tpsTransition / nbTransitions, "Est.")
-            End If
-        Else
-            If tempsCumule = 0 Then
-                lblEstimation.Text = estimation(Val(txtLimite.Text), Val(txtReprise.Text), Val(txtLimite.Text) / 2, tpsTransition / nbTransitions, "Est.")
-            Else
-                lblEstimation.Text = estimation(Val(txtLimite.Text), Val(txtReprise.Text), tempsCumule / (pos - Val(txtReprise.Tag)), tpsTransition / nbTransitions, "Est.")
-            End If
         End If
     End Sub
 End Class

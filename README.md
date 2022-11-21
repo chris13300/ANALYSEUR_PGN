@@ -34,7 +34,7 @@ At the end of the analyses, we get few files :<br>
 - the "engine_name (threads).log" file contains the speed, the depth and the tb hits<p>
 
 # tips
-Use an EPD file when positions contain little material such as end  game or for legal positions but you don't know what sequence of moves to get there.<p>
+Use an EPD file when positions contain little material such as end game positions or for legal positions but you don't know what sequence of moves to get there. With the EPD file, the selected depth won't be displayed.<p>
 
 If you double-click on the main window, you can expand its width and see a chessboard on the right.<br>
 Double-click the main window again to reduce its width and hide the chessboard.<p>
@@ -45,8 +45,8 @@ By default, "Duration" accepts an analysis delay in seconds but it can also acce
 For example, enter "30" to search for the best move for 30 seconds or "D30" to search for the best move at depth 30.<br>
 You can only use 2 engines with an analysis delay. If you set a fixed depth, only the engine 1 (blue) will be used.<p>
 
-When "Fixed" is not checked, if the 2 engines disagree on the best move, ANALYSEUR PGN can add 60 sec to the analysis delay in order to allow more time for the engines to agree.<br>
-When "Fixed" is checked, even if the 2 engines disagree on the best move, ANALYSEUR PGN will respect the analysis delay.<p>
+When the "Fixed" option isn't checked, if the 2 engines disagree on the best move, ANALYSEUR PGN can add 60 sec to the analysis delay in order to allow more time for the engines to agree.<br>
+When the "Fixed" option is checked, even if the 2 engines disagree on the best move, ANALYSEUR PGN will respect the analysis delay.<p>
 
 "Delayed start" allows you to schedule the time when the analyses will start.<p>
 

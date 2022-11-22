@@ -2,9 +2,9 @@
 Tool to find the best move by consensus of 2 engines
 
 Prerequisites :<br>
-copy detailler_pgn.exe to your ANALYSEUR PGN folder<br>
-copy nettoyer_epd.exe to your ANALYSEUR PGN folder<br>
-copy pgn-extract.exe to your ANALYSEUR PGN folder<p>
+copy [detailler_pgn.exe](https://github.com/chris13300/ANALYSEUR_PGN/blob/main/ANALYSEUR%20PGN/bin/x64/Debug/detailler_pgn.exe) to your ANALYSEUR PGN folder<br>
+copy [nettoyer_epd.exe](https://github.com/chris13300/ANALYSEUR_PGN/blob/main/ANALYSEUR%20PGN/bin/x64/Debug/nettoyer_epd.exe) to your ANALYSEUR PGN folder<br>
+copy [pgn-extract.exe](https://github.com/chris13300/ANALYSEUR_PGN/blob/main/ANALYSEUR%20PGN/bin/x64/Debug/pgn-extract.exe) to your ANALYSEUR PGN folder<p>
 
 rename BUREAU.ini to YOUR_COMPUTER_NAME.ini<br>
 set lblChemin1 to path_to_your_engine1<br>

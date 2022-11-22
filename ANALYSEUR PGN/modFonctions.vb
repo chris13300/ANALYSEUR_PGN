@@ -1188,18 +1188,12 @@ Module modFonctions
             'on cherche s'il se trouve dans le même dossier que le fichierPGN
             dossierTravail = dossierFichier
             If Not My.Computer.FileSystem.FileExists(dossierFichier & "\pgn-extract.exe") Then
-                dossierTravail = "D:\JEUX\ARENA CHESS 3.5.1\Databases\PGN Extract GUI"
-                If Not My.Computer.FileSystem.FileExists(dossierTravail & "\pgn-extract.exe") Then
-                    dossierTravail = "E:\JEUX\ARENA CHESS 3.5.1\Databases\PGN Extract GUI"
-                    If Not My.Computer.FileSystem.FileExists(dossierTravail & "\pgn-extract.exe") Then
-                        'pgn-extract.exe est introuvable
-                        MsgBox("Veuillez copier pgn-extract.exe et nettoyer_epd.exe dans :" & vbCrLf & dossierTravail, MsgBoxStyle.Critical)
-                        dossierTravail = Environment.CurrentDirectory
-                        If Not My.Computer.FileSystem.FileExists(dossierTravail & "\pgn-extract.exe") Then
-                            Exit Sub
-                        End If
-                    End If
-                End If
+                'pgn-extract.exe est introuvable
+        		MsgBox("Veuillez copier pgn-extract.exe et nettoyer_epd.exe dans :" & vbCrLf & dossierTravail, MsgBoxStyle.Critical)
+		        dossierTravail = Environment.CurrentDirectory
+		        If Not My.Computer.FileSystem.FileExists(dossierTravail & "\pgn-extract.exe") Then
+			        Exit Sub
+		        End If
             End If
         End If
 

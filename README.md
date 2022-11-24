@@ -1,4 +1,4 @@
-# analyseur pgn
+# ANALYSEUR PGN
 Tool to find the best move by consensus of 2 engines
 
 Prerequisites :<br>

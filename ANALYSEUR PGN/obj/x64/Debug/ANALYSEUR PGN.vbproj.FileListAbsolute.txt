@@ -8,3 +8,13 @@ C:\Users\chris\Documents\Visual Studio 2013\Projects\ANALYSEUR PGN\ANALYSEUR PGN
 C:\Users\chris\Documents\Visual Studio 2013\Projects\ANALYSEUR PGN\ANALYSEUR PGN\obj\x64\Debug\ANALYSEUR PGN.exe
 C:\Users\chris\Documents\Visual Studio 2013\Projects\ANALYSEUR PGN\ANALYSEUR PGN\obj\x64\Debug\ANALYSEUR PGN.xml
 C:\Users\chris\Documents\Visual Studio 2013\Projects\ANALYSEUR PGN\ANALYSEUR PGN\obj\x64\Debug\ANALYSEUR PGN.pdb
+C:\downloads\ANALYSEUR_PGN-main\ANALYSEUR PGN\bin\x64\Debug\ANALYSEUR PGN.exe.config
+C:\downloads\ANALYSEUR_PGN-main\ANALYSEUR PGN\bin\x64\Debug\ANALYSEUR PGN.exe
+C:\downloads\ANALYSEUR_PGN-main\ANALYSEUR PGN\bin\x64\Debug\ANALYSEUR PGN.pdb
+C:\downloads\ANALYSEUR_PGN-main\ANALYSEUR PGN\bin\x64\Debug\ANALYSEUR PGN.xml
+C:\downloads\ANALYSEUR_PGN-main\ANALYSEUR PGN\obj\x64\Debug\ANALYSEUR_PGN.frmPrincipale.resources
+C:\downloads\ANALYSEUR_PGN-main\ANALYSEUR PGN\obj\x64\Debug\ANALYSEUR_PGN.Resources.resources
+C:\downloads\ANALYSEUR_PGN-main\ANALYSEUR PGN\obj\x64\Debug\ANALYSEUR PGN.vbproj.GenerateResource.Cache
+C:\downloads\ANALYSEUR_PGN-main\ANALYSEUR PGN\obj\x64\Debug\ANALYSEUR PGN.exe
+C:\downloads\ANALYSEUR_PGN-main\ANALYSEUR PGN\obj\x64\Debug\ANALYSEUR PGN.xml
+C:\downloads\ANALYSEUR_PGN-main\ANALYSEUR PGN\obj\x64\Debug\ANALYSEUR PGN.pdb

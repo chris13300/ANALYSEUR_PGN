@@ -1575,7 +1575,7 @@ reprise_2:
             Shell("detailler_pgn.exe " & fichierPGN, AppWinStyle.NormalFocus, True)
 
             'doit on rappatrier les résultats ?
-            If InStr(fichierTmp, Environment.CurrentDirectory) = 0 Then
+            If fichierTmp <> "" And InStr(fichierTmp, Environment.CurrentDirectory) = 0 Then
                 'on supprime le pgn temporaire
                 My.Computer.FileSystem.DeleteFile(fichierPGN)
                 'on déplace le pgn détaillé
